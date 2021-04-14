@@ -8,6 +8,7 @@ import googlePodcast from '../img/googlePodcast.png';
 import spotify from '../img/spotify.png';
 import applePodcast from '../img/applePodcast_logo.png';
 import anchor from '../img/anchor_logo.png';
+import thumbnail from '../img/thumbnail.png';
 
 
 const Container = styled.div`
@@ -52,6 +53,7 @@ const Container = styled.div`
     .podcast {
         padding: 0 30% 30px;
         display: flex;
+        background-color: black;
         background-image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futurelearn.com%2Fcourses%2Fpodcasting&psig=AOvVaw0BfRkERQolh6WfTuoH9jQ5&ust=1618412656162000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNie6I2_--8CFQAAAAAdAAAAABAD";
     }
     .text {
@@ -71,25 +73,31 @@ const Container = styled.div`
         button {
             color: white;
             background-color: #16a1e7;
-            padding: 10px;
-            border-radius: 5px;
-            align-items: center; 
-            margin-left: 100px;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 90px;
+            margin-left: 50px;
             &:focus {
                 outline: none !important;
             }
         }
+    }
+    .podcasttitle{
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 80px;
+        color: rgb(138, 150, 158);
     }
 `
 
 const SocialMedia = () => {
     return(
         <Container>
-            <h1 className="title">Join our Forum  here</h1>
             <div className="podcast">
+            <h1 className="podcasttitle">Wanted to be a part of our forum</h1>
                 <div className="podcasttext">
                     <a href="https://club.tamilpreneur.in" target="_blank">
-                        <button>Join the Forum</button>
+                        <button>Click here to Join</button>
                     </a>
                 </div>
             </div>
@@ -115,7 +123,8 @@ const SocialMedia = () => {
             <h1 className="title">WE ARE ON YOUTUBE TOO!</h1>
             <div className="youtube-video">
                 <div>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=ruv5kjihdxE'/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=ruv5kjihdxE'
+                    light = {thumbnail}/>
                 </div>
                 <div className="text">
                     <h2>Watch similar videos here.</h2>
