@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/tamilpreneur.in/static/js/main.5ea6972a.chunk.js",
-    "main.js.map": "/tamilpreneur.in/static/js/main.5ea6972a.chunk.js.map",
-    "runtime-main.js": "/tamilpreneur.in/static/js/runtime-main.057573fd.js",
-    "runtime-main.js.map": "/tamilpreneur.in/static/js/runtime-main.057573fd.js.map",
-    "static/js/2.3d8a79f6.chunk.js": "/tamilpreneur.in/static/js/2.3d8a79f6.chunk.js",
-    "static/js/2.3d8a79f6.chunk.js.map": "/tamilpreneur.in/static/js/2.3d8a79f6.chunk.js.map",
-    "static/js/3.98114ce2.chunk.js": "/tamilpreneur.in/static/js/3.98114ce2.chunk.js",
-    "static/js/3.98114ce2.chunk.js.map": "/tamilpreneur.in/static/js/3.98114ce2.chunk.js.map",
-    "index.html": "/tamilpreneur.in/index.html",
-    "static/js/2.3d8a79f6.chunk.js.LICENSE.txt": "/tamilpreneur.in/static/js/2.3d8a79f6.chunk.js.LICENSE.txt",
-    "static/media/anchor_logo.562a07cf.png": "/tamilpreneur.in/static/media/anchor_logo.562a07cf.png",
-    "static/media/applePodcast_logo.19d4a5b3.png": "/tamilpreneur.in/static/media/applePodcast_logo.19d4a5b3.png",
-    "static/media/fb.4a455df5.png": "/tamilpreneur.in/static/media/fb.4a455df5.png",
-    "static/media/insta.f430a77a.png": "/tamilpreneur.in/static/media/insta.f430a77a.png",
-    "static/media/linkedin.c478a321.png": "/tamilpreneur.in/static/media/linkedin.c478a321.png",
-    "static/media/logo.773aa9f4.jpeg": "/tamilpreneur.in/static/media/logo.773aa9f4.jpeg"
+    "main.js": "/static/js/main.00a66232.chunk.js",
+    "main.js.map": "/static/js/main.00a66232.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0277c940.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0277c940.js.map",
+    "static/js/2.c75d52f1.chunk.js": "/static/js/2.c75d52f1.chunk.js",
+    "static/js/2.c75d52f1.chunk.js.map": "/static/js/2.c75d52f1.chunk.js.map",
+    "static/js/3.4af97354.chunk.js": "/static/js/3.4af97354.chunk.js",
+    "static/js/3.4af97354.chunk.js.map": "/static/js/3.4af97354.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.c75d52f1.chunk.js.LICENSE.txt": "/static/js/2.c75d52f1.chunk.js.LICENSE.txt",
+    "static/media/anchor_logo.562a07cf.png": "/static/media/anchor_logo.562a07cf.png",
+    "static/media/applePodcast_logo.19d4a5b3.png": "/static/media/applePodcast_logo.19d4a5b3.png",
+    "static/media/fb.4a455df5.png": "/static/media/fb.4a455df5.png",
+    "static/media/insta.f430a77a.png": "/static/media/insta.f430a77a.png",
+    "static/media/linkedin.c478a321.png": "/static/media/linkedin.c478a321.png",
+    "static/media/logo.773aa9f4.jpeg": "/static/media/logo.773aa9f4.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.057573fd.js",
-    "static/js/2.3d8a79f6.chunk.js",
-    "static/js/main.5ea6972a.chunk.js"
+    "static/js/runtime-main.0277c940.js",
+    "static/js/2.c75d52f1.chunk.js",
+    "static/js/main.00a66232.chunk.js"
   ]
 }
