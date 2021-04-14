@@ -42,7 +42,7 @@ const Header = () => {
             <div className="links">
                 <Link to="/">HOME</Link>
                 <Link to="/blog">BLOG</Link>
-                <Link to="/blog">PODCAST</Link>
+                <Link to="/podcast">PODCAST</Link>
                 <Link to="/contacts">CONTACTS</Link>
             </div>
 

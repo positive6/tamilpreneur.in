@@ -41,7 +41,7 @@ const SubContainer = styled.div`
 const About = () => {
     return(
         <Container>
-            <h1 style={{"font-size": "33px", 'color': 'rgb(138, 150, 158)'}}>LISTEN TO OUR PODCAST.</h1>
+            <h1 style={{"font-size": "33px", 'color': 'rgb(138, 150, 158)'}}>Listen to Our Podcast</h1>
             <div className="content">        
                 <SubContainer>
                     <h2>Podcast Coming Soon!</h2>
