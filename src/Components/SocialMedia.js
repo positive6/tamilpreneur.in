@@ -73,7 +73,7 @@ const Container = styled.div`
         button {
             color: white;
             background-color: #16a1e7;
-            padding: 15px;
+            padding: 13px;
             border-radius: 10px;
             margin-top: 90px;
             margin-left: 50px;
@@ -86,6 +86,7 @@ const Container = styled.div`
         padding-bottom: 20px;
         text-align: center;
         margin-top: 80px;
+        margin-left: 0px;
         color: rgb(138, 150, 158);
     }
 `
@@ -94,7 +95,7 @@ const SocialMedia = () => {
     return(
         <Container>
             <div className="podcast">
-            <h1 className="podcasttitle">Wanted to be a part of our forum</h1>
+            <h1 className="podcasttitle">Wanted to be a part of our forum?</h1>
                 <div className="podcasttext">
                     <a href="https://club.tamilpreneur.in" target="_blank">
                         <button>Click here to Join</button>

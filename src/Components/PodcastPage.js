@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Container = styled.div`
     padding: 0 0% 40px;
     .content {
-        width: 300%;
+        width: 100%;
     }
     h1 {
         text-align: center;
@@ -30,11 +30,11 @@ const SubContainer = styled.div`
         font-weight: 600;
     }
     @media only screen and (min-width: 1024px) {
-           max-width: 33.33%;
+           max-width: 100%;
     }
     @media only screen and (min-width: 768px) {
-            padding-left: 24px;
-            padding-right: 24px;
+            padding-left: 20px;
+            padding-right: 20px;
      }
 `;
 

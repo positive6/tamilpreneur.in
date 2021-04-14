@@ -12,6 +12,10 @@ const Container = styled.div`
         text-decoration: none;
         color: rgb(170, 182, 189);
     }
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width:97%;
 `;
 
 
