@@ -1,15 +1,15 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import BlogPage from '../Components/BlogPage';
+import PodcastPage from '../Components/PodcastPage';
 
-const Blog = () => {
+const Podcast = () => {
     return (
       <div className="App">
          <Header/>
-         <BlogPage/>
+         <PodcastPage/>
          <Footer/>
       </div>
     );
   }
   
-export default Blog
+export default Podcast

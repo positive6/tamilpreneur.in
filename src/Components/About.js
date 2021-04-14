@@ -58,6 +58,11 @@ DM us your email id in Instagram to join our private forum.</p>
                     <h4>Mentorship</h4>
                     <p>Our mission is to bring 1 lakh entrepreneurs by 2025. We offer mentorship and guidance to take your idea to next level. We are open for brainstorming and helping you become an entrepreneur.</p>
                 </SubContainer>
+                <SubContainer>
+                    <h4>Forum</h4>
+                    <p>Tamilpreneur Forum is a private network for aspiring entrepreneurs. It is a one stop solution for mentor connect,
+                        team building, networking, startup updates etc.</p>
+                </SubContainer>
             </div>
         </Container>
     )

@@ -49,6 +49,11 @@ const Container = styled.div`
         padding: 0 5% 30px;
         display: flex;
     }
+    .podcast {
+        padding: 0 30% 30px;
+        display: flex;
+        background-image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futurelearn.com%2Fcourses%2Fpodcasting&psig=AOvVaw0BfRkERQolh6WfTuoH9jQ5&ust=1618412656162000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNie6I2_--8CFQAAAAAdAAAAABAD";
+    }
     .text {
         padding: 8%;
         button {
@@ -61,11 +66,33 @@ const Container = styled.div`
             }
         }
     }
+    .podcasttext {
+        padding: 0 0% 60px;
+        button {
+            color: white;
+            background-color: #16a1e7;
+            padding: 10px;
+            border-radius: 5px;
+            align-items: center; 
+            margin-left: 100px;
+            &:focus {
+                outline: none !important;
+            }
+        }
+    }
 `
 
 const SocialMedia = () => {
     return(
         <Container>
+            <h1 className="title">Join our Forum  here</h1>
+            <div className="podcast">
+                <div className="podcasttext">
+                    <a href="https://club.tamilpreneur.in" target="_blank">
+                        <button>Join the Forum</button>
+                    </a>
+                </div>
+            </div>
             <h1 className="title">SOCIAL</h1>
             <div className="icons">
                 <a href ="https://www.facebook.com/tamilpreneurs/"><img src={fb} 
@@ -85,15 +112,15 @@ const SocialMedia = () => {
                 <a href ="https://anchor.fm/tamilpreneur"><img src={anchor} 
                 width="30px" height ="30px"/></a>
             </div>
-            <h1 className="title">We are on youtube</h1>
+            <h1 className="title">WE ARE ON YOUTUBE TOO!</h1>
             <div className="youtube-video">
                 <div>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=ruv5kjihdxE' />
+                    <ReactPlayer url='https://www.youtube.com/watch?v=ruv5kjihdxE'/>
                 </div>
                 <div className="text">
-                    <h2>To watch more videos</h2>
+                    <h2>Watch similar videos here.</h2>
                     <a href="https://www.youtube.com/channel/UCwW3-c091Xm2ncsDNGIeRFA" target="_blank">
-                        <button>Click here</button>
+                        <button>Youtube</button>
                     </a>
                 </div>
             </div>

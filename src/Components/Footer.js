@@ -5,7 +5,8 @@ const Container = styled.div`
     color: rgb(164, 164, 164);
     font-size: 16px;
     background-color: black;
-    padding: 56px;
+    padding: 20px;
+    padding-bottom:10px;
     justify-content: space-between;
     a {
         text-decoration: none;
