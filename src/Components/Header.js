@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 const Container = styled.div`
@@ -9,18 +9,26 @@ const Container = styled.div`
     font-size: 16px;
     justify-content: space-between;
     a {
-        color: rgb(27, 27, 27);
         text-decoration: none;
         padding-left: 32px;
         padding-top:6px;
+        color:rgb(27, 27, 27);
     }
+    a:hover{
+        color: #ed5863;
+    }
+    
     .links {
         padding-top: 8px;
         font-weight: 600;
+        color:#ed5863;
     }
     .title {
         font-size: 30px;
-    }    
+        font-weight: 600;
+        font-family: BEBAS NEUE;
+        color:#ed5863;
+    }   
 `
 const navItems = ['HOME', 'BLOG', 'CONTACTS']
 
@@ -30,22 +38,14 @@ const Header = () => {
     return(
         <Container>
             <div className="title">
-                Tamilpreneur
+                TAMILPRENEUR
             </div>
-            {/* {
-                navItems.forEach(item => {
-                    return(
-                        <div key={item} >{item}</div>
-                    )
-                })
-            } */}
             <div className="links">
-                <Link to="/">HOME</Link>
-                <Link to="/blog">BLOG</Link>
-                <Link to="/podcast">PODCAST</Link>
-                <Link to="/contacts">CONTACT US</Link>
+                <NavLink to="/" activeClassName="is-active">HOME</NavLink>
+                <NavLink to="/blog" activeClassName="is-active" activeStyle={{color:"blue"}}>BLOG</NavLink>
+                <NavLink to="/podcast" activeClassName="is-active" activeStyle={{color:"blue"}}>PODCAST</NavLink>
+                <NavLink to="/contacts" activeClassName="is-active" activeStyle={{color:"blue"}}>CONTACT US</NavLink>
             </div>
-
         </Container>
     )
 }

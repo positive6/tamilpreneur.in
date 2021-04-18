@@ -45,8 +45,7 @@ const About = () => {
             <div className="content">
                 <SubContainer>
                     <h4>CXO Talks</h4>
-                    <p>We organize regular interactive sessions with CXOs of top companies. Join our forum to attend these engaging sessions. 
-DM us your email id in Instagram to join our private forum.</p>
+                    <p>We organize regular interactive sessions with CXOs of top companies. Join our club to attend these engaging sessions.</p>
                 </SubContainer>
                 <SubContainer>
                     <h4>Courseware</h4>
@@ -56,11 +55,11 @@ DM us your email id in Instagram to join our private forum.</p>
                 </SubContainer>
                 <SubContainer>
                     <h4>Mentorship</h4>
-                    <p>Our mission is to bring 1 lakh entrepreneurs by 2025. We offer mentorship and guidance to take your idea to next level. We are open for brainstorming and helping you become an entrepreneur.</p>
+                    <p>Our mission is to bring 1 lakh tamil entrepreneurs by 2025. We offer mentorship and guidance to take your idea to next level. We are open for brainstorming and helping you become an entrepreneur.</p>
                 </SubContainer>
                 <SubContainer>
-                    <h4>Forum</h4>
-                    <p>Tamilpreneur Forum is a private network for aspiring entrepreneurs. It is a one stop solution for mentor connect,
+                    <h4>Tamilpreneur Club</h4>
+                    <p>Tamilpreneur Club is a private network for aspiring entrepreneurs. It is a one stop solution for mentor connect,
                         team building, networking, startup updates etc.</p>
                 </SubContainer>
             </div>

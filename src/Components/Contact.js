@@ -46,7 +46,7 @@ const About = () => {
             <br></br>
             <div>
                 <SubContainer>
-                <h1 style={{"font-size": "35px", 'color': '#00008B',"font-family":"Comic Sans MS",
+                <h1 style={{"font-size": "35px", 'color': '#00008B',"font-family":"bebas neue",
             "background-color":"#ed5863"}}>Open for Collaborations</h1>                   
                 </SubContainer>
             </div>

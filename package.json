@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.1",
     "react": "^17.0.1",
     "react-audio-player": "^0.16.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
     "react-player": "^2.9.0",
     "react-router": "^5.2.0",
@@ -21,9 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint -c .eslintrc --ignore-path .eslintignore .",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
