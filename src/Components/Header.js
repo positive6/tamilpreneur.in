@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import { Link,NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Container = styled.div`
     display: flex;
@@ -30,10 +29,8 @@ const Container = styled.div`
         color:#ed5863;
     }   
 `
-const navItems = ['HOME', 'BLOG', 'CONTACTS']
 
 const Header = () => {
-    const [selectedNavItem, setSelectNavItem] = useState("HOME");
 
     return(
         <Container>
@@ -41,7 +38,7 @@ const Header = () => {
                 TAMILPRENEUR
             </div>
             <div className="links">
-                <NavLink to="/" activeClassName="is-active">HOME</NavLink>
+                <NavLink to="/" exact={true} activeClassName="is-active" activeStyle={{color:"blue"}}>HOME</NavLink>
                 <NavLink to="/blog" activeClassName="is-active" activeStyle={{color:"blue"}}>BLOG</NavLink>
                 <NavLink to="/podcast" activeClassName="is-active" activeStyle={{color:"blue"}}>PODCAST</NavLink>
                 <NavLink to="/contacts" activeClassName="is-active" activeStyle={{color:"blue"}}>CONTACT US</NavLink>
