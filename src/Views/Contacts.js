@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import Contact from '../Components/Contact';
+import Contact from '../Components/Contacts';
 
 const Contacts = () => {
      return (

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import logo from '../img/logo.jpeg';
 
-const Container = styled.div`
+export const Container = styled.div`
     display: flex;
     background: black;
     h1 {
@@ -24,18 +23,3 @@ const Container = styled.div`
         flex-direction: column;
     }
 `;
-
-
-const Logo = () => {
-    return(
-        <Container>
-            <img src={logo}/>
-            <div className="content">
-                <h1>WHERE PASSION MEETS EDUCATION</h1> 
-                <h3>Building a community of full stack entrepreneurs!</h3>
-            </div>
-        </Container>
-    )
-}
-
-export default Logo;
