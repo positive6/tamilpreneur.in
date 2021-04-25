@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import BlogPage from '../Components/BlogPage';
+import BlogPage from '../Components/Blog';
 
 const Blog = () => {
     return (

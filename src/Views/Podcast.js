@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import PodcastPage from '../Components/PodcastPage';
+import PodcastPage from '../Components/Podcast';
 
 const Podcast = () => {
     return (

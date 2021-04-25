@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
     padding: 0 0% 40px;
     .content {
         width: 100%;
@@ -10,7 +10,7 @@ const Container = styled.div`
     }
 `;
 
-const SubContainer = styled.div`
+export const SubContainer = styled.div`
     p {
         margin-bottom : 24px;
         line-height: 1.5;
@@ -37,19 +37,3 @@ const SubContainer = styled.div`
             padding-right: 20px;
      }
 `;
-
-const About = () => {
-    return(
-        <Container>
-            <h1 style={{"font-size": "33px", 'color': 'rgb(138, 150, 158)'}}>Read Entrepreneurship Articles</h1>
-            <div className="content">        
-                <SubContainer>
-                    <h2>Posts Coming Soon!</h2>
-                </SubContainer>
-                
-            </div>
-        </Container>
-    )
-}
-
-export default About;
