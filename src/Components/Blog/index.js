@@ -1,17 +1,37 @@
-import { Container, SubContainer } from '../styles';
+import React, { Component } from 'react';
+import { Container } from './style';
+import Card from '../Cards/CardsUI';
+import article1 from "../../img/article1.png";
+import article2 from "../../img/article2.png";
+import logo from "../../img/logo_card.png";
 
-const Blog = () => {
-    return(
-        <Container>
-            <h1 style={{"font-size": "33px", 'color': 'rgb(138, 150, 158)'}}>Read Entrepreneurship Articles</h1>
-            <div className="content">        
-                <SubContainer>
-                    <h2>Posts Coming Soon!</h2>
-                </SubContainer>
-                
-            </div>
-        </Container>
-    )
+class Blog extends Component {
+    render() {
+        return (
+            <Container>
+                <div className="container-fluid d-flex  justify-content-center">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <Card imgsrc={article1} title="Hotel Management la Earn Pana Mudyuma?"
+                                text="Dr. ஜெயக்குமார் இருபது வருஷமா பெங்களூர்ல பிரபலமான பல ஸ்டார் ஹோட்டல்களுக்கும், கஃபேஸ்கும் கன்சல்டன்டா இருக்காரு. இவர் ஒரு ஸர்டிஃபைட்(certified) ஒயின்  டேஸ்டரும் கூட. மிடில் 90'ஸ்ல இன்ஜினியரிங், மெடிக்கல் படிச்சாதான் வேலை கிடைக்கும்னு எல்லாரும் நினைச்ச காலத்துல, வேற ஏதாவது வித்தியாசமா படிக்கலாம்னு, சென்னை IHM ல ஹோட்டல் மேனேஜ்மென்ட் படிச்சிருக்கார்." 
+                                link="/learn_about_hotel_management"/>
+                        </div>
+                        <div className="col-md-4">
+                            <Card imgsrc={article2} title="Can AI change the Indian Education System?"
+                                text="ஜுங்ரூ, என்னடா பெயரே வித்யாசமா இருக்கேனு பாக்றீங்களா? ஆமாங்க, சேதுராமன், சிபி ஹரிஹரன் சேர்ந்து ஆரம்பிச்ச ஸ்டார்டப் தான் ஜுங்ரூ. Marks, Grades தாண்டி ஒரு ஸ்டுடென்ட்க்கு என்ன தேவைன்னு யோஸிச்சு, Adaptive learning method ஆதாரமா வச்சு ஆரம்பிச்சதுதான்  ஜுங்ரூ. ஸ்டுடென்ட்ஸ்காக ஆரம்பிச்ச ஸ்டார்டப்ங்கிறதால இப்படி அட்ராக்ட்டிவ் பெயர் வெச்சிருக்காங்கனு சொன்னாரு சிபி ஹரிஹரன்."
+                                link="/indian_education_system_with_ai" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card imgsrc={logo} title="Post coming soon"
+                                text="Tamilpreneur reveals" />
+                        </div>
+                    </div>
+                </div>
+                <div className = "content">
+                    <p>For more such articles, visit <a href="https:/club.tamilpreneur.in">Tamilpreneur Club</a></p>
+                </div>              
+            </Container>
+        )
+    }
 }
-
 export default Blog;

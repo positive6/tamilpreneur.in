@@ -10,6 +10,7 @@ export const SubContainer = styled.div`
     h4 {
         margin-bottom: 24px;
     }
+    
     @media only screen and (min-width: 1024px) {
            max-width: 100%;
     }

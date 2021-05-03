@@ -4,6 +4,7 @@ export const Container = styled.div`
     padding: 56px 24px;
     .content {
         display: flex;
+        flex-direction: row;
         @media only screen and (max-width: 481px) {
             flex-direction: column;
         }
@@ -22,16 +23,7 @@ export const SubContainer = styled.div`
     }
     h4 {
         margin-bottom: 24px;
-    }
-    button {
-        background-color: rgb(223, 227, 230);
-        color: rgb(27, 28, 28);
-        min-height: 48px;
-        padding: 8px 32px;
-        border: none;
-        font-size: 14px;
-        font-weight: 600;
-    }
+    }   
     @media only screen and (min-width: 1024px) {
            max-width: 33.33%;
     }

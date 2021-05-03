@@ -1,4 +1,4 @@
-import { SubContainer } from './Styles'; 
+import { SubContainer } from './style'; 
 import { Container } from '../styles';
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
             <div>
                 <SubContainer>
                 <h1 style={{"font-size": "35px", 'color': '#00008B',"font-family":"bebas neue",
-            "background-color":"#ed5863"}}>Open for Collaborations</h1>                   
+            "background-color":"#ed5863", "margin-left":"30%","margin-right":"30%"}}>Open for Collaborations</h1>                   
                 </SubContainer>
             </div>
         </Container>

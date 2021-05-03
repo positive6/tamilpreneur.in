@@ -19,7 +19,7 @@ export const Container = styled.div`
         }
     }
     a:hover{
-        color: #ed5863;
+        color: blue;
     }  
     .links {
         padding-top: 8px;

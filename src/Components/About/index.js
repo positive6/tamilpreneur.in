@@ -1,4 +1,4 @@
-import { Container, SubContainer } from './Styles';
+import { Container, SubContainer } from './style';
 
 const About = () => {
     return(

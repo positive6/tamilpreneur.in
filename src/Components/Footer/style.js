@@ -12,8 +12,8 @@ export const Container = styled.div`
         text-decoration: none;
         color: rgb(170, 182, 189);
     }
-    position: relative;
+   position: relative;
    left: 0;
    bottom: 0;
-   width:97%;
+   width:auto;
 `;

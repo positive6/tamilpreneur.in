@@ -1,4 +1,4 @@
-import { Container } from './Styles';
+import { Container } from './style';
 import logo from '../../img/logo.jpeg';
 
 const Logo = () => {
