@@ -5,6 +5,13 @@ export const Container = styled.div`
         padding-bottom: 20px;
         text-align: center;
         color: rgb(138, 150, 158);
+        padding-top: 30px;
+    }
+    .title-youtube {
+        padding-left: 4rem;
+        text-align: center;
+        color: rgb(138, 150, 158);
+        padding-top: 40px;
     }
 
     .mail {
@@ -21,6 +28,8 @@ export const Container = styled.div`
         font-size: 14px;
         color: rgb(21, 22, 22);
         border: none;
+        width:100%;
+        margin-top: 100px !important;
     }
     .icons {
         display: flex;
@@ -71,17 +80,19 @@ export const Container = styled.div`
         @media only screen and (max-width: 481px) {
             padding: 5%;
         }
-        button {
-            color: white;
-            background-color: #16a1e7;
-            padding: 10px;
-            border-radius: 5px;
-            &:focus {
-                outline: none !important;
-            } 
-            @media only screen and (max-width: 481px) {
-                margin-left: 40%;
-            }
+    }
+    .youtube-button {
+        color: white;
+        background-color: #16a1e7;
+        padding: 10px;
+        width:30%;
+        margin-top: 5px!important;
+        border-radius: 5px;
+        &:focus {
+            outline: none !important;
+        } 
+        @media only screen and (max-width: 481px) {
+            margin-left: 40%;
         }
     }
     .podcasttext {

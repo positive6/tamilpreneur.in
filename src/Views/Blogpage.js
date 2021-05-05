@@ -14,5 +14,5 @@ const Blogpage = props => {
       </div>
     );
   }
-  
+ 
 export default Blogpage

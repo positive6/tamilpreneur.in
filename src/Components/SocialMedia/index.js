@@ -14,7 +14,7 @@ const SocialMedia = () => {
     return(
         <Container>
             <div className="podcast">
-            <h1 className="podcasttitle">Wanted to be a part of our forum?</h1>
+            <h1 className="podcasttitle">Wanted to be a part of Tamilpreneur Club?</h1>
                 <div className="podcasttext">
                     <a href="https://club.tamilpreneur.in" target="_blank">
                         <button>Click here to Join</button>
@@ -40,7 +40,7 @@ const SocialMedia = () => {
                 <a href ="https://anchor.fm/tamilpreneur"><img src={anchor} 
                 width="30px" height ="30px"/></a>
             </div>
-            <h1 className="title">WE ARE ON YOUTUBE TOO!</h1>
+            <h1 className="title-youtube">WE ARE ON YOUTUBE TOO!</h1>
             <div className="youtube-video">
                 <div className="video">
                     <ReactPlayer url='https://www.youtube.com/watch?v=ruv5kjihdxE'
@@ -50,7 +50,7 @@ const SocialMedia = () => {
                 <div className="text">
                     <h2>Watch similar videos here.</h2>
                     <a href="https://www.youtube.com/channel/UCwW3-c091Xm2ncsDNGIeRFA" target="_blank">
-                        <button>Youtube</button>
+                        <button class="youtube-button">Youtube</button>
                     </a>
                 </div>
             </div>

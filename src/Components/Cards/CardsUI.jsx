@@ -13,7 +13,8 @@ const Card = props => {
                     <p className="card-text text-secondary">
                         {props.text}
                     </p>
-                    <a href={props.link} className="card-link" >Read More...</a>
+                    <h3 className="card-footnote">{props.footnoteleft} &nbsp;&nbsp;&nbsp;&nbsp;
+                {props.footnoteright}</h3>              
                 </div>
             </div>
         </a>

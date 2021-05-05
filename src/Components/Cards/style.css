@@ -52,3 +52,13 @@
     text-transform: none;
     text-decoration: none;
 }
+
+.card-footnote{
+    padding: 1rem 0 !important;
+   
+    margin:0px;
+    font-size: 0.8rem!important;
+    color: grey;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}

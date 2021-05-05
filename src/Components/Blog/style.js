@@ -9,9 +9,8 @@ export const Container = styled.div`
 .content{
     padding-top: 2rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     font-family: sans-serif;
     background: radial-gradient(#e5e5e5,#fff,#e5e5e5);
 }
-
 `;

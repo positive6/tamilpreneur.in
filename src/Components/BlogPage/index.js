@@ -15,8 +15,7 @@ const blogpage = props => {
             <br></br><br></br> {props.content6}
             <br></br><br></br> {props.content7}
             <br></br><br></br> {props.content8}
-            </p>
-        
+            </p>       
         </div>
 
     )

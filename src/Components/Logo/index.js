@@ -15,7 +15,7 @@ const Logo = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h4>Join Tamilpreneur Club <a href="club.tamilpreneur.in">here.</a></h4>
+                        <h4>Join Tamilpreneur Club <a href="https://club.tamilpreneur.in">here.</a></h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
