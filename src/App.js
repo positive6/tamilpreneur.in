@@ -1,4 +1,5 @@
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 import Home from './Views/Home';
 import Blog from './Views/Blog';
 import Podcast from './Views/Podcast';
@@ -8,6 +9,13 @@ import Blogpage from './Views/Blogpage';
 const App = () => {
   return (
     <main>
+      <Helmet>
+        <html lang="en" />
+        <title>Tamilpreneur</title>
+        <meta name="description" content="Tamilpreneur is an EdTech Startup for aspiring Entrepreneurs. We also run a tamil podcast covering startup journeys of
+        tamil entrepreneurs, case studies and startup jargons. Join the Tamilpreneur community for up-to-date startup news, mentorship, networking, funding and many more." />
+        <meta name="keywords" content="entrepreneurship, tamil startup, Startup News, News, Podcast, startups, mentorship, networking, articles, blogs" />
+     </Helmet>
       <BrowserRouter>
         <Switch>
           <Route path='/' component={Home} exact />
