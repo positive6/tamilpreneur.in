@@ -29,5 +29,18 @@ export const Container = styled.div`
     }
     @media only screen and (min-width: 320px) and (max-width: 480px) {
         flex-direction: column;
+        .carousel-caption {
+            h3 {
+                font-size: 10px;
+                color: rgb(247, 247, 247);           
+            }
+            p {
+                font-size: 10px;         
+            }
+           padding-left:15%;
+           top: 55%;
+           bottom: 10%;
+           font-family: 'BebasNeueRegular', sans-serif;          
+          }
     }
 `;

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const Card = props => {
     return (
-        <a href={props.link} className="card-body-link">
+        <Link to={props.link} className="card-body-link">
             <div className="card text-center shadow">
                 <div className="overflow">
                     <img src={props.imgsrc} alt="logo_card" className="card-img-top" />
@@ -17,7 +18,7 @@ const Card = props => {
                 {props.footnoteright}</h3>              
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
 export default Card;

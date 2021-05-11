@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Container } from './style';
 import Card from '../Cards/CardsUI';
 import article1 from "../../img/article1.png";
 import article2 from "../../img/article2.png";
 import logo from "../../img/logo_card.png";
+import { Router } from 'react-router';
 
 class Blog extends Component {
     render() {
@@ -34,7 +36,7 @@ class Blog extends Component {
                     </div>
                 </div>
                 <div className = "content">
-                    <p>For more such articles, visit <a href="https:/club.tamilpreneur.in">Tamilpreneur Club</a></p>
+                    <p>For more such articles, visit <Link to="https:/club.tamilpreneur.in">Tamilpreneur Club</Link></p>
                 </div>              
             </Container>
         )
