@@ -6,14 +6,10 @@ export const Container = styled.div`
     background: black;
     
     .carousel-caption {
-        h3 {
-            font-size: 28px;
-            color: rgb(247, 247, 247);           
-        }
-        p {
-            font-size: 20px;         
-        }
        padding-left:27%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
        top: 65%;
        bottom: 10%;
        font-family: 'BebasNeueRegular', sans-serif;
@@ -27,20 +23,15 @@ export const Container = styled.div`
             width: 50%;
         }
     }
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
+    @media only screen and (min-width: 320px) and (max-width: 425px) {
         flex-direction: column;
         .carousel-caption {
-            h3 {
-                font-size: 10px;
-                color: rgb(247, 247, 247);           
-            }
-            p {
-                font-size: 10px;         
-            }
-           padding-left:15%;
-           top: 55%;
-           bottom: 10%;
-           font-family: 'BebasNeueRegular', sans-serif;          
+            padding-left:30%;
+            top:48px;
+        }
+         h4{
+           font-family: 'BebasNeueRegular', sans-serif;     
+           font-size: 0.3rem;  
           }
     }
 `;

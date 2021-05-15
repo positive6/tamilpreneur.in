@@ -36,4 +36,9 @@ export const SubContainer = styled.div`
             padding-left: 20px;
             padding-right: 20px;
      }
+     @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+          max-width: 425px;
+        }
+    }
+ }
 `;

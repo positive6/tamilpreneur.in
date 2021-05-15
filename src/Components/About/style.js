@@ -25,10 +25,20 @@ export const SubContainer = styled.div`
         margin-bottom: 24px;
     }   
     @media only screen and (min-width: 1024px) {
-           max-width: 33.33%;
+           max-width: 25%;
     }
     @media only screen and (min-width: 768px) {
             padding-left: 24px;
             padding-right: 24px;
      }
+     @media only screen and (min-width: 481px) {
+        width: 481px;       
+    }
+    @media only screen and (min-width: 320px) {
+        width: 320px;
+        p{
+            width: 320px;
+        }
+    }
+
 `;

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from './style';
 import Card from '../Cards/CardsUI';
-import article1 from "../../img/article1.png";
-import article2 from "../../img/article2.png";
+import article1 from "../../img/article1.jpg";
+import article2 from "../../img/article2.jpg";
 import logo from "../../img/logo_card.png";
 import { Router } from 'react-router';
 

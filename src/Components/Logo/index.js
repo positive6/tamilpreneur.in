@@ -1,7 +1,7 @@
 import { Container } from './style';
-import carousel1 from '../../img/Carousel1.png';
-import carousel2 from '../../img/Carousel2.png';
-import carousel3 from '../../img/Carousel3.png';
+import carousel1 from '../../img/Carousel1.jpg';
+import carousel2 from '../../img/Carousel2.jpg';
+import carousel3 from '../../img/Carousel3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Logo = () => {
