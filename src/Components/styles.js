@@ -1,13 +1,23 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 0 0% 40px;
-    .content {
-        width: 100%;
+  padding: 0 0% 40px;
+  a {
+    color: black;
+    &:hover {
+      color: #007bff;
     }
-    h1 {
-        text-align: center;
-    }
+  }
+  li {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .content {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
 `;
 
 export const SubContainer = styled.div`
