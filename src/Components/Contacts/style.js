@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SubContainer = styled.div`
     p {
@@ -19,7 +19,19 @@ export const SubContainer = styled.div`
             padding-right: 20px;
      }
      @media only screen and (min-width: 320px) and (max-width: 425px) {
-        max-width: 80%;
+        max-width: 100%;
+     }
+
+     .text {
+        font-size: 35px;
+        color: #00008B;
+        font-family:bebas neue;
+        background-color:#ed5863;
+        margin-left:30%;
+        margin-right:30;
+        @media only screen and (min-width: 320px) and (max-width: 425px) {
+            margin: 10px;
+         }
      }
 }
 `;

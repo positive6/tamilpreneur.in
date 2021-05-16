@@ -1,17 +1,17 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 56px 24px;
-    .content {
-        display: flex;
-        flex-direction: row;
-        @media only screen and (max-width: 481px) {
-            flex-direction: column;
-        }
+  padding: 56px 24px;
+  .content {
+    display: flex;
+    flex-direction: row;
+    @media only screen and (max-width: 481px) {
+      flex-direction: column;
     }
-    h1 {
-        text-align: center;
-    }
+  }
+  h1 {
+    text-align: center;
+  }
 `;
 
 export const SubContainer = styled.div`
@@ -32,12 +32,16 @@ export const SubContainer = styled.div`
             padding-right: 24px;
      }
      @media only screen and (min-width: 481px) {
-        width: 481px;       
+        width: 481px;   
+        p {
+            padding-right: 24px;
+        }    
     }
     @media only screen and (min-width: 320px) {
         width: 320px;
         p{
             width: 320px;
+            padding-right: 24px;
         }
     }
 
